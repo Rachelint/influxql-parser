@@ -1,0 +1,10 @@
+---
+source: src/visit.rs
+assertion_line: 1669
+expression: "visit_statement!(\"DROP MEASUREMENT cpu\")"
+---
+- "pre_visit_statement: DropMeasurement(DropMeasurementStatement { name: Identifier(\"cpu\") })"
+- "pre_visit_drop_measurement_statement: DropMeasurementStatement { name: Identifier(\"cpu\") }"
+- "post_visit_drop_measurement_statement: DropMeasurementStatement { name: Identifier(\"cpu\") }"
+- "post_visit_statement: DropMeasurement(DropMeasurementStatement { name: Identifier(\"cpu\") })"
+
