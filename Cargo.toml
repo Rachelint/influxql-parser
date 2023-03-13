@@ -2,7 +2,6 @@
 name = "influxql-parser"
 version = "0.1.0"
 edition = "2021"
-authors = ["CeresDB Authors <ceresdbservice@gmail.com>"]
 
 [dependencies] # In alphabetical order
 nom = { version = "7", default-features = false, features = ["std"] }
